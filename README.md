@@ -16,7 +16,7 @@ The project uses the fake api of [resreq](https://reqres.in/)
 
 The project is hosted on [Github Pages](https://lukapetro.github.io/playtomic-challenge)
 
-### Run locally
+### Run locally
 
 1. Clone the repo
 
