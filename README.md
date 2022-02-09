@@ -18,9 +18,10 @@ The project uses the fake api of [resreq](https://reqres.in/)
    git clone https://github.com/lukapetro/playtomic-challenge.git
    ```
 
-2. Install NPM packages
+2. Navigate to folder and Install NPM packages
 
    ```sh
+   cd playtomic-challenge
    yarn
    ```
 
