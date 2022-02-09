@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/playtomic-challenge/static/js/main.03c05de6.js",
+    "main.js": "/playtomic-challenge/static/js/main.ad2304f6.js",
     "static/media/2.jpeg": "/playtomic-challenge/static/media/2.dab48e61563217fbaf65.jpeg",
     "static/media/1.jpeg": "/playtomic-challenge/static/media/1.f8b8c1e13dfd88c6fbdc.jpeg",
     "index.html": "/playtomic-challenge/index.html",
-    "main.03c05de6.js.map": "/playtomic-challenge/static/js/main.03c05de6.js.map"
+    "main.ad2304f6.js.map": "/playtomic-challenge/static/js/main.ad2304f6.js.map"
   },
   "entrypoints": [
-    "static/js/main.03c05de6.js"
+    "static/js/main.ad2304f6.js"
   ]
 }
