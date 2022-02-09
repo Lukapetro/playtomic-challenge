@@ -26,9 +26,14 @@ The project uses the fake api of [resreq](https://reqres.in/)
    ```
 
 3. Run
+
    ```sh
    yarn start
    ```
+
+4. Login Credentials
+   - **email:** eve.holt@reqres.in
+   - **password:** anything
 
 ## License
 
