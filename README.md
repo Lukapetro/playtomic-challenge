@@ -12,25 +12,19 @@ This repo contains [the challenge](https://gist.github.com/exhibiton/90895afb51b
 
 The project uses the fake api of [resreq](https://reqres.in/)
 
-### Run now
-
-You can run the project hosted on [Github Pages](https://lukapetro.github.io/playtomic-challenge/)
-
-### Installation
-
-2. Clone the repo
+1. Clone the repo
 
    ```sh
    git clone https://github.com/lukapetro/playtomic-challenge.git
    ```
 
-3. Install NPM packages
+2. Install NPM packages
 
    ```sh
    yarn
    ```
 
-4. Run
+3. Run
    ```sh
    yarn start
    ```
