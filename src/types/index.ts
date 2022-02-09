@@ -12,9 +12,30 @@ export interface LoginData {
 // User
 
 export interface User {
-  id?: string;
-  name?: string;
-  email?: string;
+  id: Number;
+  email: string;
+  first_name: string;
+  last_name: string;
+  avatar: string;
+}
+
+// Resource
+
+export interface Resource {
+  id: Number;
+  color: string;
+  name: string;
+  pantone_value: string;
+  year: Number;
+}
+
+// Nft
+
+export interface Nft {
+  id: Number;
+  name: string;
+  price: string;
+  image: string;
 }
 
 // State
@@ -22,12 +43,20 @@ export interface User {
 export interface AuthState {
   loading: boolean;
   isAuthenticated: boolean;
-  error: string;
-  user?: User;
+  error: string | null;
 }
 
-export interface ErrorState {
-  message: string | null;
+export interface ResourceState {
+  loading: boolean;
+  resources: [];
+  error: string | null;
+}
+
+export interface UserState {
+  loading: boolean;
+  users?: [];
+  me: User;
+  error: string | null;
 }
 
 // Redux Utilities

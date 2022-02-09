@@ -1,6 +1,6 @@
 ## About The Project
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `lukapetro`, `playtomic-challenge`, `twitter_handle`, `linkedin_username`, `lucapetro93@gmail.com`, `lucapetro93@gmail.com_client`, `project_title`, `project_description`
+This repo contains [the challenge](https://gist.github.com/exhibiton/90895afb51b388e611fa5ad53948c7b2) developed for the interview with [playtomic](https://playtomic.io/)
 
 ### Built With
 
@@ -10,52 +10,35 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+The project uses the fake api of [resreq](https://reqres.in/)
 
-### Prerequisites
+### Run now
 
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+You can run the project on
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
+
    ```sh
    git clone https://github.com/lukapetro/playtomic-challenge.git
    ```
+
 3. Install NPM packages
+
    ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
+   yarn
    ```
 
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<!-- LICENSE -->
+4. Run
+   ```sh
+   yarn start
+   ```
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<!-- CONTACT -->
+Distributed under the MIT License.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - lucapetro93@gmail.com
-
-Project Link: [https://github.com/lukapetro/playtomic-challenge](https://github.com/lukapetro/playtomic-challenge)
+[Luka Petrovic](https://www.lukapetrovic.dev/) - lucapetro93@gmail.com

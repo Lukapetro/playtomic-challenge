@@ -103,6 +103,7 @@ export default function Layout({ children }: { children: JSX.Element }) {
           </Typography>
         </Toolbar>
       </AppBar>
+
       <Drawer variant="permanent" open={open}>
         <Toolbar
           sx={{

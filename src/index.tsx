@@ -1,4 +1,3 @@
-import App from "./App";
 import { store } from "./store";
 import { BrowserRouter } from "react-router-dom";
 import { CssBaseline } from "@mui/material";
@@ -7,6 +6,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "./theme";
+import Navigation from "./navigation";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,7 +14,7 @@ ReactDOM.render(
       <BrowserRouter>
         <ThemeProvider theme={theme}>
           <CssBaseline />
-          <App />
+          <Navigation />
         </ThemeProvider>
       </BrowserRouter>
     </Provider>

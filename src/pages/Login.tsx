@@ -55,8 +55,6 @@ export default function Login() {
     }
   }, [isAuthenticated, error, navigate]);
 
-  console.log("error :>> ", error);
-
   return (
     <Container component="main" maxWidth="xs">
       <Box

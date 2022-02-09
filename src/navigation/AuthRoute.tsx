@@ -1,14 +1,12 @@
 import { Navigate, useLocation } from "react-router";
 import Layout from "../components/Layout";
 
-import { useAppSelector } from "../store/reduxHooks";
+import { get } from "../utils/storage";
 
 export const AuthRoute = ({ children }: { children: JSX.Element }) => {
   let location = useLocation();
 
-  const { isAuthenticated, loading } = useAppSelector((state) => state.auth);
-
-  if (loading) return <p>loading</p>;
+  const isAuthenticated = get("token");
 
   if (!isAuthenticated) {
     return <Navigate to={"/login"} state={{ from: location }} />;

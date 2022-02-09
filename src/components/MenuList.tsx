@@ -3,15 +3,24 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import DashboardIcon from "@mui/icons-material/Dashboard";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import SettingsIcon from "@mui/icons-material/Settings";
 import LogoutIcon from "@mui/icons-material/Logout";
-import { Button, Divider } from "@mui/material";
-import { NavLink } from "react-router-dom";
+import { Box, Divider } from "@mui/material";
+import { NavLink, useNavigate } from "react-router-dom";
 
 import * as routes from "../navigation/routes";
+import { useAppDispatch } from "../store/reduxHooks";
+import { logout } from "../store/auth/auth.slice";
 
 export default function MenuList() {
+  let navigate = useNavigate();
+  const dispatch = useAppDispatch();
+
+  function handleLogout() {
+    dispatch(logout());
+    navigate("/login");
+  }
+
   return (
     <React.Fragment>
       <ListItemButton component={NavLink} to={routes.DASHBOARD}>
@@ -20,12 +29,6 @@ export default function MenuList() {
         </ListItemIcon>
         <ListItemText primary="Dashboard" />
       </ListItemButton>
-      <ListItemButton component={NavLink} to={routes.ORDERS}>
-        <ListItemIcon>
-          <ShoppingCartIcon />
-        </ListItemIcon>
-        <ListItemText primary="Orders" />
-      </ListItemButton>
       <ListItemButton component={NavLink} to={routes.SETTINGS}>
         <ListItemIcon>
           <SettingsIcon />
@@ -33,7 +36,7 @@ export default function MenuList() {
         <ListItemText primary="Settings" />
       </ListItemButton>
       <Divider sx={{ my: 1 }} />
-      <ListItemButton component={Button} onClick={() => console.log("logout")}>
+      <ListItemButton component={Box} onClick={handleLogout}>
         <ListItemIcon>
           <LogoutIcon />
         </ListItemIcon>
