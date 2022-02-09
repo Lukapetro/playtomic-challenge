@@ -1,5 +1,3 @@
-<!-- ABOUT THE PROJECT -->
-
 ## About The Project
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `lukapetro`, `playtomic-challenge`, `twitter_handle`, `linkedin_username`, `lucapetro93@gmail.com`, `lucapetro93@gmail.com_client`, `project_title`, `project_description`
