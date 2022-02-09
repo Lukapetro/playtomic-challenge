@@ -115,7 +115,6 @@ export default function Login() {
             render={({ field }) => (
               <TextField
                 fullWidth
-                required
                 {...field}
                 sx={{ mb: 2 }}
                 error={!!errors.email}
@@ -135,7 +134,6 @@ export default function Login() {
             render={({ field }) => (
               <TextField
                 fullWidth
-                required
                 {...field}
                 type="password"
                 error={!!errors.password}
