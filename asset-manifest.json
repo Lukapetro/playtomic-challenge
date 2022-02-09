@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/login/static/js/main.470f7cff.js",
-    "static/media/2.jpeg": "/login/static/media/2.dab48e61563217fbaf65.jpeg",
-    "static/media/1.jpeg": "/login/static/media/1.f8b8c1e13dfd88c6fbdc.jpeg",
-    "index.html": "/login/index.html",
-    "main.470f7cff.js.map": "/login/static/js/main.470f7cff.js.map"
+    "main.js": "/playtomic-challenge/static/js/main.62cce0a0.js",
+    "static/media/2.jpeg": "/playtomic-challenge/static/media/2.dab48e61563217fbaf65.jpeg",
+    "static/media/1.jpeg": "/playtomic-challenge/static/media/1.f8b8c1e13dfd88c6fbdc.jpeg",
+    "index.html": "/playtomic-challenge/index.html",
+    "main.62cce0a0.js.map": "/playtomic-challenge/static/js/main.62cce0a0.js.map"
   },
   "entrypoints": [
-    "static/js/main.470f7cff.js"
+    "static/js/main.62cce0a0.js"
   ]
 }
