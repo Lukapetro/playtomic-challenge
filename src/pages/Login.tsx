@@ -156,6 +156,9 @@ export default function Login() {
       <Typography sx={{ fontSize: 12, color: "gray" }}>
         Email: <span style={{ fontWeight: "bold" }}>eve.holt@reqres.in</span>
       </Typography>
+      <Typography sx={{ fontSize: 12, color: "gray" }}>
+        Password: <span style={{ fontWeight: "bold" }}>anything</span>
+      </Typography>
       <Toaster />
       <Footer />
     </Container>
