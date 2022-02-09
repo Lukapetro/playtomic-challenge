@@ -12,6 +12,12 @@ This repo contains [the challenge](https://gist.github.com/exhibiton/90895afb51b
 
 The project uses the fake api of [resreq](https://reqres.in/)
 
+### Run on Github Pages
+
+The project is hosted on [Github Pages](https://lukapetro.github.io/playtomic-challenge)
+
+### Run locally
+
 1. Clone the repo
 
    ```sh

@@ -11,7 +11,7 @@ import Navigation from "./navigation";
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="playtomic-challenge">
         <ThemeProvider theme={theme}>
           <CssBaseline />
           <Navigation />
