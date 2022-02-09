@@ -38,7 +38,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     dispatch(fetchCurrentUser());
-  }, []);
+  }, [dispatch]);
 
   if (loading) return <Spinner />;
   if (error) return <Typography>Error loading</Typography>;

@@ -53,7 +53,7 @@ export default function Login() {
     if (isAuthenticated) {
       navigate("/");
     }
-  }, [isAuthenticated, error, navigate]);
+  }, [isAuthenticated, error, navigate, dispatch]);
 
   return (
     <Container component="main" maxWidth="xs">

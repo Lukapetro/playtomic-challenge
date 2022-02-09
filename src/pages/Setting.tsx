@@ -14,7 +14,7 @@ export default function Setting() {
 
   useEffect(() => {
     dispatch(fetchResource());
-  }, []);
+  }, [dispatch]);
 
   if (loading) return <Spinner />;
   if (error || !Array.isArray(resources))
